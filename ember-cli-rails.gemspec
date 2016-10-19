@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.license  = "MIT"
   spec.files    = Dir["README.md", "CHANGELOG.md", "LICENSE.txt", "{lib,app,config}/**/*"]
 
-  spec.required_ruby_version = ">= 2.2.0"
-
   spec.add_dependency "ember-cli-rails-assets", "~> 0.6.2"
   spec.add_dependency "railties", ">= 3.2"
   spec.add_dependency "cocaine", "~> 0.5.8"
